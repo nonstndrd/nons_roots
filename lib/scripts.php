@@ -36,8 +36,9 @@ function roots_scripts() {
       'jquery'    => '//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'
     );
   }
-
+	
   wp_enqueue_style('roots_css', get_template_directory_uri() . $assets['css'], false, null);
+  wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/assets/css/custom.css' ); 
 
   /**
    * jQuery is loaded using the same method from HTML5 Boilerplate:
