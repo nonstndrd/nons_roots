@@ -2,10 +2,33 @@
 /* CSS Document */
 
 .content {
-	margin-top:60px;
+	margin-top:100px;
 }
 
-@media screen and (max-width: 600px) {
+.logo {
+	padding-top:10px;
+	max-width:200px;
+	float:left;
+	width:50%;
+}
+
+.all-nav {
+	float:right;
+	width:50%;
+}
+
+.navbar .container {
+	vertical-align:middle;
+	overflow:auto;
+}
+
+.navbar-collapse {
+	vertical-align:middle;
+	line-height:1em;
+}
+
+
+@media screen and (max-width: 800px) {
 	.sidebar {
 		display:none;
 	}
